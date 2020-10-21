@@ -101,7 +101,8 @@ const getUsers = async (req, res) => {
   } catch (error) {
     res.status(500).send({ status: 'ERROR', message: error.message });
   }
- };
+};
+ 
 
 // Actualizar usuario
 const updateUser = async (req, res) => { 
